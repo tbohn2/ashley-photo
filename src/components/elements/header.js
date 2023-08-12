@@ -9,7 +9,7 @@ const Header = () => {
             <div className='myImgBox border border-light bg-light d-flex flex-column align-items-center justify-content-center'>
                 <img className='myImg' src={image}></img>
             </div>
-            <nav className='border border-light navbar d-flex justify-content-evenly col-12'>
+            <nav className='border border-light navbar d-flex justify-content-evenly col-11'>
                 <Link className='myLink nav-item fs-3 text-dark' to='/'>Home</Link>
                 <Link className='myLink nav-item fs-3 text-dark' to='/'>Pricing</Link>
                 <Link className='myLink nav-item fs-3 text-dark' to='/'>Contact</Link>
