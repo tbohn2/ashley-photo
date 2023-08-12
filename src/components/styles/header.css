@@ -19,3 +19,8 @@ header {
 .myLink {
     text-decoration: none;
 }
+
+.myBtn {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
