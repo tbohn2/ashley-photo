@@ -1,0 +1,17 @@
+.myImgBox {
+    object-fit: cover;
+    object-position: center top;
+    max-height: 24vh;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.myImg {
+    object-fit: cover;
+    object-position: center top;
+}
+
+.myLink {
+    text-decoration: none;
+}
