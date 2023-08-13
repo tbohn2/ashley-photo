@@ -1,3 +1,8 @@
+:root {
+    --white: #ebe9df;
+    --blue: #68869a
+}
+
 .myBody {
     min-height: 100vh;
 }
