@@ -1,5 +1,6 @@
 header {
     font-family: Cormorant Garamond, serif;
+    background-color: var(--white);
 }
 
 .myImgBox {
@@ -21,6 +22,18 @@ header {
 }
 
 .myBtn {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.myBtn:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.myBtn,
+.myBtn:hover {
+    transition: background-color 0.2s ease-in-out;
 }
