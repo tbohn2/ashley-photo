@@ -1,0 +1,11 @@
+.myImgContainer {
+    height: 500px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.myImg {
+    object-fit: cover;
+    object-position: center;
+}
