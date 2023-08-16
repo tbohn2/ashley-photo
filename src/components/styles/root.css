@@ -1,10 +1,13 @@
 :root {
     --white: #ebe9df;
-    --blue: #68869a
+    --blue: #68869a;
+    --teal: #a4b2b0;
+    --lightTeal: #c9d2d1;
+
 }
 
 .myBody {
     min-height: 100vh;
-    background-color: var(--white);
+    background-color: var(--blue);
     font-family: Cormorant Garamond, serif;
 }
