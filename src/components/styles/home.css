@@ -1,6 +1,5 @@
 .myImgContainer {
     height: 1000px;
-    /* width: 1000px; */
     background-size: cover;
     background-position: center;
 }
@@ -8,6 +7,12 @@
 .myImg {
     object-fit: cover;
     object-position: center;
+}
+
+.meetHeader {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--blue);
 }
 
 .myPortrait {
@@ -18,4 +23,13 @@
     background-size: cover;
     background-position: center 25%;
     box-shadow: -15px 15px var(--blue);
+}
+
+.myInfoText {
+    border: 1px solid var(--blue);
+    border-radius: 20px;
+    height: 400px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--blue);
 }

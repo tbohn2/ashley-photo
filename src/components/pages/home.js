@@ -42,13 +42,15 @@ const Home = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <div className="my-3">
-                <h1 className="border border-dark">Meet Ashley</h1>
-                <div className="d-flex justify-content-evenly">
+            <div className="my-5 d-flex flex-column">
+                <div className="d-flex justify-content-evenly align-items-center">
                     <div className="myPortrait col-3" style={{ backgroundImage: `url(${ashleyPic})` }}></div>
-                    <div className="border border-dark col-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Gravida quis blandit turpis cursus in hac habitasse platea. Blandit aliquam etiam erat velit scelerisque in dictum non consectetur. Volutpat commodo sed egestas egestas. Vitae semper quis lectus nulla at volutpat diam. Donec enim diam vulputate ut pharetra sit amet aliquam id. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Eu volutpat odio facilisis mauris sit amet massa vitae. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Velit aliquet sagittis id consectetur purus ut.
-
-                        Nunc non blandit massa enim nec dui nunc mattis. Montes nascetur ridiculus mus mauris vitae ultricies. Enim diam vulputate ut pharetra sit amet. Magna fermentum iaculis eu non diam phasellus vestibulum lorem. Hac habitasse platea dictumst quisque. Et netus et malesuada fames ac turpis egestas. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Neque convallis a cras semper auctor neque vitae tempus quam. Quam quisque id diam vel quam elementum pulvinar. Arcu ac tortor dignissim convallis aenean. Velit euismod in pellentesque massa placerat duis ultricies. Tempus urna et pharetra pharetra. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Risus pretium quam vulputate dignissim suspendisse in est ante. Erat nam at lectus urna duis convallis convallis tellus id. Cursus eget nunc scelerisque viverra mauris in aliquam. Orci eu lobortis elementum nibh tellus molestie nunc non. Nunc id cursus metus aliquam. Non enim praesent elementum facilisis. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.</div>
+                    <div className="d-flex flex-column align-items-center col-5">
+                        <h1 className="meetHeader col-6 text-center">Meet Ashley</h1>
+                        <p className="p-1 myInfoText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Gravida quis blandit turpis cursus in hac habitasse platea. Blandit aliquam etiam erat velit scelerisque in dictum non consectetur. Volutpat commodo sed egestas egestas. Vitae semper quis lectus nulla at volutpat diam. Donec enim diam vulputate ut pharetra sit amet aliquam id. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Eu volutpat odio facilisis mauris sit amet massa vitae. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Velit aliquet sagittis id consectetur purus ut.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
