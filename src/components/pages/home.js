@@ -8,12 +8,13 @@ import pic5 from '../images/IMG_6826.JPG'
 import pic6 from '../images/IMG_6909copy.JPG'
 import pic7 from '../images/IMG_6985.JPG'
 import ashleyPic from '../images/AshleyP2.jpeg'
+import flower1 from '../graphics/1.png'
 import { Carousel } from "bootstrap";
 
 const Home = () => {
 
     return (
-        <div className="">
+        <div className="d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators" className="carousel slide col-12">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -42,16 +43,23 @@ const Home = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <div className="my-5 d-flex flex-column">
-                <div className="d-flex justify-content-evenly align-items-center">
-                    <div className="myPortrait col-3" style={{ backgroundImage: `url(${ashleyPic})` }}></div>
-                    <div className="d-flex flex-column align-items-center col-5">
-                        <h1 className="meetHeader col-6 text-center">Meet Ashley</h1>
-                        <p className="p-1 myInfoText">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Gravida quis blandit turpis cursus in hac habitasse platea. Blandit aliquam etiam erat velit scelerisque in dictum non consectetur. Volutpat commodo sed egestas egestas. Vitae semper quis lectus nulla at volutpat diam. Donec enim diam vulputate ut pharetra sit amet aliquam id. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Eu volutpat odio facilisis mauris sit amet massa vitae. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Velit aliquet sagittis id consectetur purus ut.
-                        </p>
+            <div className="col-12 d-flex justify-content-center">
+                <div className="my-5 d-flex flex-column col-8">
+                    <div className="d-flex justify-content-evenly align-items-center">
+                        <div className="myPortrait z-0 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}>
+                            <div className="myGraphic justify-self-start align-self-end border border-dark" style={{ backgroundImage: `url(${flower1})` }}></div>
+                        </div>
+                        <div className="d-flex flex-column align-items-center col-7">
+                            <h1 className="meetHeader col-6 text-center">Meet Ashley</h1>
+                            <p className="p-1 myInfoText">One time I ate a hot pocket, and it was so delicious that I ran back to Walmart to buy another package (because I ate the whole package). When
+                                I got to Walmart, I sprinted down the aisle and grabbed as many hotpocket boxes as my little arms could hold. As I sprinted to self-checkout, suddenly I felt the urge to share with everyone and bought everyone some hot pockets. Yum!</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div className="d-flex justify-content-evenly align-items-center py-4 col-12 bg-secondary">
+                <h1 className="fs-2">Professional Photo for your lifestyle</h1>
+                <button className="bookBtn fs-2 btn btn-dark col-2">Book Now</button>
             </div>
         </div>
     )
