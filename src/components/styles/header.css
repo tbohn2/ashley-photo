@@ -6,7 +6,7 @@ header {
 .myImgBox {
     object-fit: cover;
     object-position: center top;
-    max-height: 24vh;
+    min-height: 200px;
     max-width: 500px;
     overflow: hidden;
     position: relative;
