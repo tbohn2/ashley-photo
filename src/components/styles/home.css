@@ -26,10 +26,13 @@
 }
 
 .myGraphic {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-size: 200%;
     background-position: center;
+    position: relative;
+    top: 340px;
+    left: -150px;
 }
 
 .myInfoText {

@@ -47,7 +47,7 @@ const Home = () => {
                 <div className="my-5 d-flex flex-column col-8">
                     <div className="d-flex justify-content-evenly align-items-center">
                         <div className="myPortrait z-0 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}>
-                            <div className="myGraphic justify-self-start align-self-end border border-dark" style={{ backgroundImage: `url(${flower1})` }}></div>
+                            <div className="myGraphic" style={{ backgroundImage: `url(${flower1})` }}></div>
                         </div>
                         <div className="d-flex flex-column align-items-center col-7">
                             <h1 className="meetHeader col-6 text-center">Meet Ashley</h1>
