@@ -4,6 +4,7 @@ import Home from './components/pages/home'
 import Header from './components/elements/header';
 import Footer from './components/elements/footer';
 import Pricing from './components/pages/pricing';
+import Contact from './components/pages/contact';
 import './components/styles/root.css'
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
         <div className=''>
           <Routes>
             <Route exact path='/' element={<Home />} />
-            <Route exact path='/pricing' element={<Pricing />} />
-            {/* <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/aboutMe/' element={<AboutMe />} /> */}
+            {/* <Route exact path='/pricing' element={<Pricing />} /> */}
+            <Route exact path='/contact' element={<Contact />} />
+            {/* <Route exact path='/aboutMe/' element={<AboutMe />} /> */}
           </Routes>
         </div>
         <div>

@@ -17,17 +17,17 @@ const Header = () => {
                         Home
                     </button>
                 </Link>
-                <Link className='myLink fs-3 text-dark' to='/'>
+                <Link className='myLink fs-3 text-dark' to='/pricing'>
                     <button className='myBtn fs-3'>
                         Pricing
                     </button>
                 </Link>
-                <Link className='myLink fs-3 text-dark' to='/'>
+                <Link className='myLink fs-3 text-dark' to='/contact'>
                     <button className='myBtn fs-3'>
                         Contact
                     </button>
                 </Link>
-                <Link className='myLink fs-3 text-dark' to='/'>
+                <Link className='myLink fs-3 text-dark' to='/aboutMe'>
                     <button className='myBtn fs-3'>
                         About Me
                     </button>
