@@ -1,8 +1,27 @@
 .footerLogo {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-size: 175%;
     background-position: center;
     z-index: 0;
     background-Image: url(../images/ashley-logo2.png)
+}
+
+.mediaIcon {
+    height: 100px;
+    width: 100px;
+    background-size: 200%;
+    background-position: center;
+}
+
+.fbIcon {
+    background-Image: url(../graphics/FBIcon.png)
+}
+
+.igIcon {
+    background-Image: url(../graphics/IGIcon.png)
+}
+
+.pinIcon {
+    background-Image: url(../graphics/PinIcon.png)
 }
