@@ -1,0 +1,8 @@
+.footerLogo {
+    height: 200px;
+    width: 200px;
+    background-size: 175%;
+    background-position: center;
+    z-index: 0;
+    background-Image: url(../images/ashley-logo2.png)
+}
