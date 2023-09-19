@@ -17,9 +17,9 @@ const Header = () => {
                         Home
                     </button>
                 </Link>
-                <Link className='myLink fs-3 text-dark' to='/pricing'>
+                <Link className='myLink fs-3 text-dark' to='/aboutMe'>
                     <button className='myBtn fs-3'>
-                        Pricing
+                        About Me
                     </button>
                 </Link>
                 <Link className='myLink fs-3 text-dark' to='/contact'>
@@ -27,9 +27,14 @@ const Header = () => {
                         Contact
                     </button>
                 </Link>
-                <Link className='myLink fs-3 text-dark' to='/aboutMe'>
+                <Link className='myLink fs-3 text-dark' to='/pricing'>
                     <button className='myBtn fs-3'>
-                        About Me
+                        Pricing
+                    </button>
+                </Link>
+                <Link className='myLink fs-3 text-dark' to='/pricing'>
+                    <button className='myBtn fs-3'>
+                        Porfolio
                     </button>
                 </Link>
 
