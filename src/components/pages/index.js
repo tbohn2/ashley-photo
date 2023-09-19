@@ -1,3 +1,7 @@
 import Home from "./home";
+import AboutMe from "./aboutMe";
+import Contact from "./contact";
+import Pricing from "./pricing";
+import Portfolio from "./portfolio";
 
-export default { Home };
+export { Home, AboutMe, Contact, Pricing, Portfolio };

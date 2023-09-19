@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../styles/home.css'
 
-const Pricing = () => {
+const Portfolio = () => {
 
     return (
         <div className="d-flex mt-5 flex-column align-items-center">
@@ -10,4 +10,4 @@ const Pricing = () => {
     )
 }
 
-export default Pricing;
+export default Portfolio;
