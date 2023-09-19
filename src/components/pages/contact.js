@@ -3,12 +3,23 @@ import '../styles/home.css'
 
 const Contact = () => {
 
+    const [selectedOption, setSelectedOption] = useState("What type of photo session would you like to book with me?");
+
+    const updateSelectedOption = (optionText) => {
+        setSelectedOption(optionText);
+    }
+
     return (
-        <div className="d-flex mt-3 flex-column align-items-center">
+        <div className="d-flex mt-5 flex-column align-items-center">
             <h1>CONTACT ME</h1>
-            <form className="d-flex flex-column col-8 border border-light p-2 row g-1">
+            <div className="d-flex flex-column col-3 mb-3">
+                <h3>Please complete the form below</h3>
+                <h3 className="align-self-end">I look forward to connecting with you!</h3>
+
+            </div>
+            <form className="d-flex flex-column col-6 border border-light p-2 row g-1">
                 <div class="mb-3">
-                    <label class="form-label">Name</label>
+                    <label class="form-label">NAME</label>
                     <input className="form-control" placeholder="Jane Doe" />
                 </div>
                 <div class="mb-3">
@@ -19,10 +30,28 @@ const Contact = () => {
                     <label class="form-label">EMAIL ADDRESS</label>
                     <input type="email" className="form-control" placeholder="name@example.com" />
                 </div>
-                <div class="mb-3 col-4">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="mb-3">
+                    <label class="form-label">INSTAGRAM HANDLE</label>
+                    <input type="email" className="form-control" placeholder="optional" />
                 </div>
+                <div class="col-12 mb-3">
+                    <label class="form-label">TYPE OF INQUIRY</label>
+                    <button type="button" id="selectedOption" class="col-12 btn btn-light text-start dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        {selectedOption}
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-start">
+                        <li><button class="dropdown-item" type="button" onClick={() => updateSelectedOption('Families')} >Families</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={() => updateSelectedOption('Couples')} >Couples</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={() => updateSelectedOption('Graduation')}>Graduation</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={() => updateSelectedOption('Maternity')}>Maternity</button></li>
+                        <li><button class="dropdown-item" type="button" onClick={() => updateSelectedOption('Headshots')}>Headshots</button></li>
+                    </ul>
+                </div>
+                <div class="mb-3 col-12">
+                    <label class="form-label">YOUR INSPIRATION</label>
+                    <textarea class="form-control" placeholder="Tell me all the fun details! Your inspiration for the shoot, date, desired location, ideas, etc." rows="3"></textarea>
+                </div>
+                <button className="btn btn-primary col-2 align-self-center">Submit</button>
             </form>
         </div>
     )
