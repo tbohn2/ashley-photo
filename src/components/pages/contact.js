@@ -17,7 +17,7 @@ const Contact = () => {
                 <h3 className="align-self-end">I look forward to connecting with you!</h3>
 
             </div>
-            <form className="d-flex flex-column col-6 border border-light p-2 row g-1">
+            <form className="fs-5 d-flex flex-column col-6 border border-light p-2 row g-1">
                 <div class="mb-3">
                     <label class="form-label">NAME</label>
                     <input className="form-control" placeholder="Jane Doe" />
