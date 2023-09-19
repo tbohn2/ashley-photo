@@ -51,7 +51,7 @@ const Contact = () => {
                     <label class="form-label">YOUR INSPIRATION</label>
                     <textarea class="form-control" placeholder="Tell me all the fun details! Your inspiration for the shoot, date, desired location, ideas, etc." rows="3"></textarea>
                 </div>
-                <button className="btn btn-primary col-2 align-self-center">Submit</button>
+                <button className="btn btn-primary col-2 align-self-start">Submit</button>
             </form>
         </div>
     )
