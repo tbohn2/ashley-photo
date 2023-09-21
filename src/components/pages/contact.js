@@ -10,7 +10,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="d-flex mt-5 flex-column align-items-center">
+        <div className="d-flex my-5 flex-column align-items-center">
             <h1>CONTACT ME</h1>
             <div className="d-flex flex-column col-3 mb-3">
                 <h3>Please complete the form below</h3>
