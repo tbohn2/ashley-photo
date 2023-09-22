@@ -10,13 +10,19 @@ const Home = () => {
 
     return (
         <div className="d-flex flex-column align-items-center">
-            <div className="homeGallery my-5">
-                <img className="mx-1 homepageImg" src={pic1}></img>
-                <img className="mx-1 homepageImg" src={pic3}></img>
-                <img className="mx-1 homepageImg" src={pic2}></img>
+            <div className="homeGallery d-flex pt-5">
+                <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
+                    <img className="homepageImg" src={pic1}></img>
+                </div>
+                <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
+                    <img className="homepageImg2 mb-5 pb-5" src={pic2}></img>
+                </div>
+                <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
+                    <img className="homepageImg" src={pic3}></img>
+                </div>
             </div>
             <div className="col-12 d-flex justify-content-center">
-                <div className="my-5 d-flex flex-column col-8">
+                <div className="d-flex flex-column col-8">
                     <div className="d-flex justify-content-evenly align-items-center">
                         <div className="myPortrait z-0 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}>
                             {/* <div className="myGraphic" style={{ backgroundImage: `url(${flower1})` }}></div> */}
@@ -29,7 +35,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="d-flex justify-content-evenly align-items-center py-4 col-12 bg-secondary">
+            <div className="d-flex justify-content-evenly align-items-center my-5 py-4 col-12 bg-secondary">
                 <h1 className="fs-2">Professional Photo for your lifestyle</h1>
                 <button className="bookBtn fs-2 btn btn-dark col-2">Book Now</button>
             </div>

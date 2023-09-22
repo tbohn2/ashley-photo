@@ -2,8 +2,28 @@
     height: 80vh;
 }
 
+.homepageImgContainer {
+    max-height: 70vh;
+    max-width: 400px;
+    overflow: hidden;
+}
+
 .homepageImg {
-    height: 600px;
+    max-height: 70vh;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.homepageImg2 {
+    max-height: 100vh;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cropImg2 {
+    object-fit: cover;
 }
 
 .meetHeader {
