@@ -1,0 +1,11 @@
+.aboutMeContainer {
+    height: 1000px;
+}
+
+.aboutMePortrait {
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    background-size: cover;
+    background-position: center 25%;
+}
