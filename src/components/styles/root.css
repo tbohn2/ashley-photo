@@ -11,3 +11,15 @@
     background-color: var(--blue);
     font-family: Cormorant Garamond, serif;
 }
+
+.gloock {
+    font-family: 'Gloock', serif;
+}
+
+.allura {
+    font-family: 'Allura', cursive;
+}
+
+.myLgText {
+    font-size: 3rem;
+}
