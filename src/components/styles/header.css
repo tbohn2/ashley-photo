@@ -9,37 +9,19 @@ header {
     z-index: 1;
 }
 
-.myImgBox {
-    object-fit: cover;
-    object-position: center top;
-    min-height: 200px;
-    max-width: 500px;
-    overflow: hidden;
-    position: relative;
-}
-
-.myImg {
-    object-fit: cover;
-    object-position: center top;
-}
-
-.myLink {
-    text-decoration: none;
-}
-
 .myBtn {
-    background-color: var(--blue);
-    border: 1px solid var(--blue);
+    background-color: var(--white);
+    border: 1px solid var(--white);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .myBtn:hover {
-    background-color: var(--white);
     color: var(--blue);
+    border: 1px solid var(--blue);
 }
 
 .myBtn,
 .myBtn:hover {
-    transition: background-color 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out;
 }

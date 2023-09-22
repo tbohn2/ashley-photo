@@ -20,6 +20,14 @@
     font-family: 'Allura', cursive;
 }
 
+.monserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .myLgText {
     font-size: 3rem;
+}
+
+.noTextDec {
+    text-decoration: none;
 }
