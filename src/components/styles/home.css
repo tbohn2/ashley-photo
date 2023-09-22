@@ -1,12 +1,9 @@
-.myImgContainer {
-    height: 1000px;
-    background-size: cover;
-    background-position: center;
+.homeGallery {
+    height: 80vh;
 }
 
-.myImg {
-    object-fit: cover;
-    object-position: center;
+.homepageImg {
+    height: 600px;
 }
 
 .meetHeader {

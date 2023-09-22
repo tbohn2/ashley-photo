@@ -1,6 +1,7 @@
 header {
     font-family: Cormorant Garamond, serif;
     background-color: var(--white);
+    height: 20vh
 }
 
 .myPhotographyPos {
