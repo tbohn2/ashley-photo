@@ -8,7 +8,7 @@
 
 .myBody {
     min-height: 100vh;
-    background-color: var(--blue);
+    background-color: var(--white);
     font-family: Cormorant Garamond, serif;
 }
 
