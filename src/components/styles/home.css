@@ -26,6 +26,10 @@
     object-fit: cover;
 }
 
+.welcomeBreak {
+    height: 10vh;
+}
+
 .meetHeader {
     font-size: 3rem;
     font-weight: 600;

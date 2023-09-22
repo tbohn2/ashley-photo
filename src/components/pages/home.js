@@ -21,6 +21,7 @@ const Home = () => {
                     <img className="homepageImg" src={pic3}></img>
                 </div>
             </div>
+            <div className="welcomeBreak border-top border-bottom border-dark gloock fst-italic col-12 myLgText d-flex justify-content-center align-items-center">Welcome to Ashley Bohn Photography!</div>
             <div className="col-12 d-flex justify-content-center">
                 <div className="d-flex flex-column col-8">
                     <div className="d-flex justify-content-evenly align-items-center">
