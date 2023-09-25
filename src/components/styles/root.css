@@ -2,8 +2,8 @@
     --white: #ebe9df;
     --blue: #68869a;
     --teal: #a4b2b0;
-    --lightTeal: #c9d2d1;
-
+    --lightTeal: #beccca;
+    --brown: #d1a179;
 }
 
 .myBody {
@@ -34,4 +34,16 @@
 
 .noTextDec {
     text-decoration: none;
+}
+
+.bgTeal {
+    background-color: var(--teal);
+}
+
+.bgLightTeal {
+    background-color: var(--lightTeal);
+}
+
+.bgBrown {
+    background-color: var(--brown);
 }
