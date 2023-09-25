@@ -10,7 +10,7 @@ import flower1 from '../graphics/1.png'
 const Home = () => {
 
     return (
-        <div className="d-flex flex-column align-items-center">
+        <div className="d-flex flex-column mb-5 align-items-center">
             <div className="homeGallery d-flex pt-5">
                 <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
                     <img className="homepageImg" src={pic1}></img>
@@ -22,7 +22,11 @@ const Home = () => {
                     <img className="homepageImg" src={pic3}></img>
                 </div>
             </div>
-            <div className="welcomeBreak  gloock fst-italic col-12 myLgText d-flex justify-content-center align-items-center">Welcome to Ashley Bohn Photography!</div>
+            <div className="welcomeBreak mt-5 col-12 d-flex flex-column justify-content-center align-items-center">
+                <p className="allura fs-2 welcome1">Welcome to Ashley Bohn Photography!</p>
+                <p className="gloock myLgText">I'D LOVE TO HEAR FROM YOU</p>
+                <p className="fs-5 welcome3">For session availability please fill out this <Link className="formLink" to={'/contact'}>form</Link> and I will get back to you.</p>
+            </div>
             <div className="col-12 my-5 d-flex justify-content-center">
                 <div className="d-flex flex-column col-8">
                     <div className="d-flex justify-content-evenly align-items-center">

@@ -30,6 +30,19 @@
     height: 10vh;
 }
 
+.welcome1 {
+    margin-bottom: -15px;
+}
+
+.welcome3 {
+    margin-top: -15px;
+}
+
+.formLink {
+    color: black;
+    text-decoration: underline;
+}
+
 .meetHeader {
     font-size: 3rem;
     font-weight: 600;
