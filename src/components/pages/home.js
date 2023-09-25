@@ -22,12 +22,12 @@ const Home = () => {
                     <img className="homepageImg" src={pic3}></img>
                 </div>
             </div>
-            <div className="welcomeBreak mt-5 col-12 d-flex flex-column justify-content-center align-items-center">
+            <div className="bgTeal col-12 d-flex flex-column justify-content-center align-items-center">
                 <p className="allura fs-2 welcome1">Welcome to Ashley Bohn Photography!</p>
                 <p className="gloock myLgText">I'D LOVE TO HEAR FROM YOU</p>
-                <p className="fs-5 welcome3">For session availability please fill out this <Link className="formLink" to={'/contact'}>form</Link> and I will get back to you.</p>
+                <p className="fs-5 welcome3 mb-2">For session availability please fill out this <Link className="formLink" to={'/contact'}>form</Link> and I will get back to you.</p>
             </div>
-            <div className="col-12 my-5 d-flex justify-content-center">
+            <div className="bgLightTeal col-12 py-5 d-flex justify-content-center">
                 <div className="d-flex flex-column col-8">
                     <div className="d-flex justify-content-evenly align-items-center">
                         <div className="myPortrait z-0 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}>
@@ -41,8 +41,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="d-flex justify-content-evenly align-items-center py-4 col-12 bg-secondary">
-                <div className="d-flex justify-content-evenly align-items-center col-10 bg-secondary">
+            <div className="bgBrown d-flex justify-content-evenly align-items-center py-4 col-12">
+                <div className="d-flex justify-content-evenly align-items-center col-10">
                     <div className="d-flex align-items-center bModa">
                         <h1 className="myLgText fw-bold d-flex align-items-center">Professional Photo for your</h1>
                         <h1 className="myLgText fw-bold fst-italic">&nbsp;lifestyle</h1>
