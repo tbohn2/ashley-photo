@@ -33,17 +33,17 @@
 .meetHeader {
     font-size: 3rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--blue);
 }
 
 .myPortrait {
-    border: 1px solid var(--white);
+    border: 6px solid white;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
     min-height: 500px;
     background-size: cover;
     background-position: center 25%;
-    box-shadow: -15px 15px var(--white);
+    box-shadow: -15px 15px white;
 }
 
 .myGraphic {
@@ -57,12 +57,12 @@
 }
 
 .myInfoText {
-    border: 1px solid var(--white);
+    border: 1px solid var(--blue);
     border-radius: 20px;
     height: 400px;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--blue);
 }
 
 .bookBtn {
