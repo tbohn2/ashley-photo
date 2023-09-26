@@ -1,3 +1,17 @@
+.packageHeader {
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
 .listIncluded {
     height: 150px;
+}
+
+.pricingBG {
+    background-size: cover;
+    background-position: center;
+}
+
+.priceCard {
+    border-radius: 40px;
 }
