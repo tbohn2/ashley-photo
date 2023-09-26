@@ -32,6 +32,10 @@
     font-size: 3rem;
 }
 
+.myXLText {
+    font-size: 5rem;
+}
+
 .noTextDec {
     text-decoration: none;
 }
