@@ -9,6 +9,7 @@
 .myBody {
     min-height: 100vh;
     background-color: var(--white);
+    z-index: -1;
     font-family: Cormorant Garamond, serif;
 }
 
@@ -50,4 +51,13 @@
 
 .bgBrown {
     background-color: var(--brown);
+}
+
+.bgWhite {
+    background-color: var(--white);
+}
+
+.coverCenter {
+    background-size: cover;
+    background-position: center;
 }
