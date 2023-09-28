@@ -4,6 +4,7 @@
     --teal: #a4b2b0;
     --lightTeal: #beccca;
     --brown: #d1a179;
+    --gray: #cecece;
 }
 
 .myBody {
@@ -55,6 +56,10 @@
 
 .bgWhite {
     background-color: var(--white);
+}
+
+.bgGray {
+    background-color: var(--gray);
 }
 
 .coverCenter {
