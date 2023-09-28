@@ -11,10 +11,10 @@ const Contact = () => {
 
     return (
         <div className="d-flex my-5 flex-column align-items-center">
-            <h1>CONTACT ME</h1>
-            <div className="d-flex flex-column col-3 mb-3">
-                <h3>Please complete the form below</h3>
-                <h3 className="align-self-end">I look forward to connecting with you!</h3>
+            <h1 className="gloock">CONTACT ME</h1>
+            <div className="d-flex flex-column allura col-4 mb-3">
+                <h3 className="ms-5">Please complete the form below</h3>
+                <h3 className="me-5 align-self-end text-decoration-underline">I look forward to connecting with you!</h3>
 
             </div>
             <form className="fs-5 d-flex flex-column col-6 border border-light p-2 row g-1">
@@ -51,7 +51,7 @@ const Contact = () => {
                     <label class="form-label">YOUR INSPIRATION</label>
                     <textarea class="form-control" placeholder="Tell me all the fun details! Your inspiration for the shoot, date, desired location, ideas, etc." rows="3"></textarea>
                 </div>
-                <button className="btn btn-primary col-2 align-self-start">Submit</button>
+                <button className="submitBtn col-2 align-self-start">Submit</button>
             </form>
         </div>
     )
