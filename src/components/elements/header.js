@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image from '../images/ashley_logo3.png'
 import '../styles/header.css'
 
 const Header = () => {
@@ -32,7 +31,7 @@ const Header = () => {
                         Pricing
                     </button>
                 </Link>
-                <Link className='myLink fs-3 text-dark' to='/pricing'>
+                <Link className='myLink fs-3 text-dark' to='/portfolio'>
                     <button className='myBtn fs-3'>
                         Porfolio
                     </button>
