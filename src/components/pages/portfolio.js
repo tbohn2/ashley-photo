@@ -16,8 +16,8 @@ const Portfolio = () => {
                     <img className="portLandscape" src={portfolio4} alt="portfolio4"></img>
                 </div>
                 <img className="portPortrait col-3 mx-5 my-3" src={portfolio2} alt="portfolio2"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio3} alt="portfolio3"></img>
                 <img className="portPortrait col-3 mx-5 my-3" src={portfolio5} alt="portfolio5"></img>
+                <img className="portPortrait col-3 mx-5 my-3" src={portfolio3} alt="portfolio3"></img>
             </div>
 
         </div>
