@@ -1,0 +1,9 @@
+.portLandscape {
+    height: 225px;
+    object-fit: cover;
+}
+
+.portPortrait {
+    height: 500px;
+    object-fit: cover;
+}
