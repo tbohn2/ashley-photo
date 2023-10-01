@@ -6,7 +6,7 @@ import pricingBG from '../images/pricingBG.jpg'
 const Pricing = () => {
 
     return (
-        <div className="d-flex flex-column mt-5 pb-3 align-items-center pricingBG" style={{ backgroundImage: `url(${pricingBG})` }}>
+        <div className="fade-in d-flex flex-column mt-5 pb-3 align-items-center pricingBG" style={{ backgroundImage: `url(${pricingBG})` }}>
             <div className="d-flex align-items-center gloock bgGray packageHeader align-self-start myLgText col-6 pe-5 text-end">
                 <h1 className="col-10 my-1">P a c k a g e s</h1>
             </div>

@@ -9,7 +9,7 @@ import portfolio5 from '../images/portfolio5.jpg'
 const Portfolio = () => {
 
     return (
-        <div className="d-flex mt-5 justify-content-center">
+        <div className="fade-in d-flex mt-5 justify-content-center">
             <div className="col-10 d-flex flex-wrap">
                 <div className="portPortrait d-flex flex-column justify-content-between col-3 mx-5 my-3">
                     <img className="portLandscape" src={portfolio1} alt="portfolio1"></img>
