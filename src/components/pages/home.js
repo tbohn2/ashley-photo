@@ -30,7 +30,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="d-flex justify-content-center col-12">
+        <div className="fade-in d-flex justify-content-center col-12" >
             {imagesLoaded ? (
                 <div className="d-flex flex-column mb-5 align-items-center">
                     <div className="homeGallery d-flex pt-5">
@@ -63,7 +63,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="graphic4" style={{ backgroundImage: `url(${graphic4})` }}></div>
+                        {/* <div className="graphic4" style={{ backgroundImage: `url(${graphic4})` }}></div> */}
                     </div>
                     <div className="bgLightTeal d-flex justify-content-evenly align-items-center py-4 col-12">
                         <div className="d-flex justify-content-evenly align-items-center col-10">
