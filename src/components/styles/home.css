@@ -70,6 +70,35 @@
     box-shadow: -15px 15px white;
 }
 
+.graphic3 {
+    object-fit: cover;
+    position: absolute;
+}
+
+.graphic3-1 {
+    height: 600px;
+    right: 70%;
+    bottom: 30%;
+}
+
+.graphic3-2 {
+    height: 400px;
+    right: 68%;
+    bottom: 30%;
+}
+
+.graphic3-3 {
+    height: 400px;
+    right: 7%;
+    bottom: -7%;
+}
+
+.graphic3-4 {
+    height: 700px;
+    right: -7%;
+    bottom: -55%;
+}
+
 .graphic4 {
     height: 350px;
     width: 350px;
@@ -86,7 +115,19 @@
     height: 400px;
     font-size: 1.5rem;
     font-weight: 600;
-    background-color: var(--teal);
+    transform: rotate(-5deg);
+}
+
+.myTextBorder1 {
+    transform: rotate(-5deg);
+    position: relative;
+    z-index: 1;
+}
+
+.myTextBorder2 {
+    transform: rotate(10deg);
+    position: relative;
+    z-index: 2;
 }
 
 .bookBtn {

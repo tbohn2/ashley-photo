@@ -8,6 +8,7 @@ import ashleyPic from '../images/AshleyP2.jpeg'
 import graphic4 from '../graphics/4.png'
 import graphic5 from '../graphics/5.png'
 import flower1 from '../graphics/1.png'
+import graphic3 from '../graphics/3.png'
 
 const Home = () => {
     const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -52,17 +53,23 @@ const Home = () => {
                     </div>
                     <div className="meetSection col-12 py-5 d-flex justify-content-center">
                         <div className="d-flex flex-column col-8">
-                            <div className="d-flex justify-content-evenly align-items-center">
-                                <div className="myPortrait z-0 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}>
-                                    {/* <div className="myGraphic" style={{ backgroundImage: `url(${flower1})` }}></div> */}
-                                </div>
-                                <div className="d-flex flex-column z-0 align-items-center col-5">
-                                    <h1 className="meetHeader col-6 text-center">Meet Ashley</h1>
-                                    <p className="p-1 bgWhite myInfoText ">One time I ate a hot pocket, and it was so delicious that I ran back to Walmart to buy another package (because I ate the whole package). When
-                                        I got to Walmart, I sprinted down the aisle and grabbed as many hotpocket boxes as my little arms could hold. As I sprinted to self-checkout, suddenly I felt the urge to share with everyone and bought everyone some hot pockets. Yum!</p>
+                            <div className="d-flex justify-content-evenly align-items-end">
+                                <div className="myPortrait z-1 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}></div>
+                                <div className="d-flex flex-column align-self-center z-0 align-items-center col-6">
+                                    <h1 className="meetHeader col-10 text-center">Hi, I'm Ashley!</h1>
+                                    <div className="border border-dark myTextBorder1">
+                                        <div className="border border-dark myTextBorder2 d-flex justify-content-center align-items-center">
+                                            <p className="bgWhite myInfoText col-11">One time I ate a hot pocket, and it was so delicious that I ran back to Walmart to buy another package (because I ate the whole package). When
+                                                I got to Walmart, I sprinted down the aisle and grabbed as many hotpocket boxes as my little arms could hold. As I sprinted to self-checkout, suddenly I felt the urge to share with everyone and bought everyone some hot pockets. Yum!</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <img className='graphic3 graphic3-1 z-1' src={graphic3} alt='graphic3'></img>
+                        <img className='graphic3 graphic3-2 z-0' src={graphic3} alt='graphic3'></img>
+                        <img className='graphic3 graphic3-3' src={graphic3} alt='graphic3'></img>
+                        <img className='graphic3 graphic3-4 border border-dark' src={graphic3} alt='graphic3'></img>
                         {/* <div className="graphic4" style={{ backgroundImage: `url(${graphic4})` }}></div> */}
                     </div>
                     <div className="bgLightTeal d-flex justify-content-evenly align-items-center py-4 col-12">
