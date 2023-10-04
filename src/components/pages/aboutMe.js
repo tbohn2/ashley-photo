@@ -15,10 +15,15 @@ const AboutMe = () => {
             </div>
             <div className="col-7 my-5">
                 <div className="float-end  border aboutMePortrait" style={{ backgroundImage: `url(${pic})` }}></div>
-                <p className="fs-1">Hello! My name is Ashley! I am passionate about photography.
-                    I have been doing it for years and am a pro dawg. Hello! My name is Ashley! I am passionate about photography. I have been doing it for years and am a pro dawg
-                    Hello! My name is Ashley! I am passionate about photography. I have been doing it for years and am a pro dawg
-                    Hello! My name is Ashley! I am passionate about photography. I have been doing it for years and am a pro dawg</p>
+                <p className="fs-1">
+                    Hey there! I'm Ashley, your go-to photographer from the sunny deserts of Arizona. When I'm not behind the lens, you'll find me frolicking in the great outdoors, soaking up
+                    that glorious Arizona sunshine, and getting my adrenaline fix hiking.
+                    I am passionate about many things, but my true artistic expression comes to life through photography. It's my creative escape!
+                    In between designing, catching rays, spending time with friends and family, burying my nose in a good book, and conquering hiking trails, I'm here to sprinkle some magic into your life.
+
+                    Let's make your precious moments unforgettable together. I'm not just your photographer; I'm your buddy, your biggest cheerleader, and the guardian of your memories.
+                    Because let's face it, a photograph frozen in time is a treasure that'll last a lifetime. Let's capture your story, one stunning frame at a time!
+                </p>
             </div>
             <div className="col-10 my-5 d-flex justify-content-evenly">
                 <img className="col-3 collage" src={collage2} />
