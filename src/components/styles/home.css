@@ -70,33 +70,44 @@
     box-shadow: -15px 15px white;
 }
 
-.graphic3 {
-    object-fit: cover;
+.graphic3-container {
     position: absolute;
+    overflow: hidden;
+}
+
+.graphic3 {
+    transform: scale(2.5);
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .graphic3-1 {
-    height: 600px;
-    right: 70%;
-    bottom: 30%;
+    height: 300px;
+    width: 300px;
+    right: 80%;
+    bottom: 50%;
 }
 
 .graphic3-2 {
-    height: 400px;
-    right: 68%;
+    height: 200px;
+    width: 200px;
+    right: 75%;
     bottom: 30%;
 }
 
 .graphic3-3 {
-    height: 400px;
-    right: 7%;
-    bottom: -7%;
+    height: 300px;
+    width: 300px;
+    right: 5%;
+    bottom: 50%;
 }
 
 .graphic3-4 {
-    height: 700px;
-    right: -7%;
-    bottom: -55%;
+    height: 200px;
+    width: 200px;
+    right: 15%;
+    bottom: 30%;
 }
 
 .graphic4 {

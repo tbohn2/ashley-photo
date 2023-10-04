@@ -55,7 +55,7 @@ const Home = () => {
                         <div className="d-flex flex-column col-8">
                             <div className="d-flex justify-content-evenly align-items-end">
                                 <div className="myPortrait z-1 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}></div>
-                                <div className="d-flex flex-column align-self-center z-0 align-items-center col-6">
+                                <div className="d-flex flex-column align-self-center z-1 align-items-center col-6">
                                     <h1 className="meetHeader col-10 text-center">Hi, I'm Ashley!</h1>
                                     <div className="border border-dark myTextBorder1">
                                         <div className="border border-dark myTextBorder2 d-flex justify-content-center align-items-center">
@@ -66,10 +66,19 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <img className='graphic3 graphic3-1 z-1' src={graphic3} alt='graphic3'></img>
-                        <img className='graphic3 graphic3-2 z-0' src={graphic3} alt='graphic3'></img>
-                        <img className='graphic3 graphic3-3' src={graphic3} alt='graphic3'></img>
-                        <img className='graphic3 graphic3-4 border border-dark' src={graphic3} alt='graphic3'></img>
+                        <div className='graphic3-container graphic3-1 z-1'>
+                            <img className="graphic3" src={graphic3} alt='graphic3'></img>
+                        </div>
+                        <div className='graphic3-container graphic3-2'>
+                            <img className="graphic3" src={graphic3} alt='graphic3'></img>
+                        </div>
+                        <div className='graphic3-container graphic3-3 z-0'>
+                            <img className="graphic3" src={graphic3} alt='graphic3'></img>
+                        </div>
+                        <div className='graphic3-container graphic3-4'>
+                            <img className="graphic3" src={graphic3} alt='graphic3'></img>
+                        </div>
+
                         {/* <div className="graphic4" style={{ backgroundImage: `url(${graphic4})` }}></div> */}
                     </div>
                     <div className="bgLightTeal d-flex justify-content-evenly align-items-center py-4 col-12">
