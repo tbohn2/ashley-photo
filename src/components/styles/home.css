@@ -141,6 +141,20 @@
     z-index: 2;
 }
 
-.bookBtn {
-    font-size: 2rem;
+.moreAbout {
+    background-color: var(--white);
+    border: 3px solid var(--teal);
+    color: var(--blue);
+    border-radius: 20px;
+}
+
+.moreAbout:hover {
+    color: var(--teal);
+    border: 3px solid var(--blue);
+}
+
+.moreAbout,
+.moreAbout:hover {
+    transition: border 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }

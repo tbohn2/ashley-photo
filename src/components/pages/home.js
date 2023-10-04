@@ -33,7 +33,7 @@ const Home = () => {
     return (
         <div className="fade-in d-flex justify-content-center col-12" >
             {imagesLoaded ? (
-                <div className="d-flex flex-column mb-5 align-items-center">
+                <div className="d-flex flex-column mb-5 align-items-center col-12">
                     <div className="homeGallery d-flex pt-5">
                         <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
                             <img className="homepageImg" src={pic1}></img>
@@ -59,8 +59,17 @@ const Home = () => {
                                     <h1 className="meetHeader col-10 text-center">Hi, I'm Ashley!</h1>
                                     <div className="border border-dark myTextBorder1">
                                         <div className="border border-dark myTextBorder2 d-flex justify-content-center align-items-center">
-                                            <p className="bgWhite myInfoText col-11">One time I ate a hot pocket, and it was so delicious that I ran back to Walmart to buy another package (because I ate the whole package). When
-                                                I got to Walmart, I sprinted down the aisle and grabbed as many hotpocket boxes as my little arms could hold. As I sprinted to self-checkout, suddenly I felt the urge to share with everyone and bought everyone some hot pockets. Yum!</p>
+                                            <p className="bgWhite myInfoText p-5 col-11 d-flex flex-column">
+                                                I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
+                                                I am excited to get to know you!
+                                                <br></br>
+                                                <Link className='col-6 my-5 align-self-center' to='/aboutMe'>
+                                                    <button className='fs-4 col-12 moreAbout'>
+                                                        More about me!
+                                                    </button>
+                                                </Link>
+                                            </p>
+
                                         </div>
                                     </div>
                                 </div>
