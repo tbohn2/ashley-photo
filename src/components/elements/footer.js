@@ -8,14 +8,16 @@ import '../styles/footer.css'
 
 const Footer = () => {
 
-
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
 
     return (
         <footer className='d-flex justify-content-center col-12'>
             <div className='d-flex col-10'>
                 <div className='d-flex flex-column col-5 align-items-center justify-content-evenly'>
                     <p className='fs-3 col-8 mt-3'>Ashley Bohn is a lifestyle family photographer based in Mesa, Arizona</p>
-                    <button className="bookBtn fs-3 my-3 btn btn-dark">Book Now</button>
+                    <button className="col-6 fs-2 my-3 bookBtn" onClick={scrollToTop}>Book Now</button>
                 </div>
                 <div className='d-flex flex-column align-items-center col-2'>
                     <div className="footerLogo" style={{ backgroundImage: `url(${logo})` }}></div>

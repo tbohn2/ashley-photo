@@ -30,6 +30,10 @@ const Home = () => {
         });
     }, []);
 
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className="fade-in d-flex justify-content-center col-12" >
             {imagesLoaded ? (
@@ -64,7 +68,7 @@ const Home = () => {
                                                 I am excited to get to know you!
                                                 <br></br>
                                                 <Link className='col-6 my-5 align-self-center' to='/aboutMe'>
-                                                    <button className='fs-4 col-12 moreAbout'>
+                                                    <button className='fs-4 col-12 moreAbout' onClick={scrollToTop}>
                                                         More about me!
                                                     </button>
                                                 </Link>
@@ -86,8 +90,6 @@ const Home = () => {
                         <div className='graphic3-container graphic3-4'>
                             <img className="graphic3" src={graphic3} alt='graphic3'></img>
                         </div>
-
-                        {/* <div className="graphic4" style={{ backgroundImage: `url(${graphic4})` }}></div> */}
                     </div>
                     <div className="bgLightTeal d-flex justify-content-evenly align-items-center mt-5 py-5 col-12">
                         <div className="d-flex justify-content-evenly align-items-center col-10">
@@ -96,7 +98,7 @@ const Home = () => {
                                 <h1 className="myLgText fw-bold fst-italic">&nbsp;lifestyle</h1>
                             </div>
                             <Link className='col-2' to='/contact'>
-                                <button className='bookBtn fs-1 col-12'>
+                                <button className='bookBtn fs-1 col-12' onClick={scrollToTop}>
                                     Book Now
                                 </button>
                             </Link>
