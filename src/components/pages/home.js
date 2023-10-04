@@ -106,7 +106,7 @@ const Home = () => {
                     </div>
                 </div>
             ) : (
-                <div className="col-12 my-5 d-flex flex-column align-items-center">
+                <div className="homeGallery col-12 my-5 d-flex flex-column align-items-center">
                     <h1 className="myXLText allura">Welcome!</h1>
                     <h2 className="myLgText allura">Loading...</h2>
                 </div>
