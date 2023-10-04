@@ -69,7 +69,6 @@ const Home = () => {
                                                     </button>
                                                 </Link>
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -90,14 +89,14 @@ const Home = () => {
 
                         {/* <div className="graphic4" style={{ backgroundImage: `url(${graphic4})` }}></div> */}
                     </div>
-                    <div className="bgLightTeal d-flex justify-content-evenly align-items-center py-4 col-12">
+                    <div className="bgLightTeal d-flex justify-content-evenly align-items-center mt-5 py-5 col-12">
                         <div className="d-flex justify-content-evenly align-items-center col-10">
                             <div className="d-flex align-items-center bModa">
                                 <h1 className="myLgText fw-bold d-flex align-items-center">Professional Photo for your</h1>
                                 <h1 className="myLgText fw-bold fst-italic">&nbsp;lifestyle</h1>
                             </div>
                             <Link className='col-2' to='/contact'>
-                                <button className='bookBtn fs-2 btn btn-dark col-12'>
+                                <button className='bookBtn fs-1 col-12'>
                                     Book Now
                                 </button>
                             </Link>

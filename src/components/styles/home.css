@@ -158,3 +158,21 @@
     transition: border 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
 }
+
+.bookBtn {
+    background-color: black;
+    border: 3px solid var(--white);
+    color: var(--white);
+    border-radius: 20px;
+}
+
+.bookBtn:hover {
+    color: var(--lightTeal);
+    border: 3px solid var(--blue);
+}
+
+.bookBtn,
+.bookBtn:hover {
+    transition: border 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
