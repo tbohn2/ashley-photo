@@ -14,10 +14,10 @@ const Footer = () => {
 
     return (
         <footer className='d-flex justify-content-center col-12'>
-            <div className='d-flex col-10'>
+            <div className='d-flex col-xl-12'>
                 <div className='d-flex flex-column col-5 align-items-center justify-content-evenly'>
-                    <p className='fs-3 col-8 mt-3'>Ashley Bohn is a lifestyle family photographer based in Mesa, Arizona</p>
-                    <Link className='col-6 fs-2 my-3' to='/contact'>
+                    <p className='col-8 mt-3'>Ashley Bohn is a lifestyle family photographer based in Mesa, Arizona</p>
+                    <Link className='col-6 my-3' to='/contact'>
                         <button className='bookBtn col-12' onClick={scrollToTop}>
                             Book Now
                         </button>
@@ -27,12 +27,12 @@ const Footer = () => {
                     <div className="footerLogo" style={{ backgroundImage: `url(${logo})` }}></div>
                 </div>
                 <div className='d-flex flex-column col-5 justify-content-evenly align-items-center'>
-                    <div className='d-flex justify-content-evenly col-8'>
+                    <div className='d-flex justify-content-evenly col-8 '>
                         <Link className='mediaIcon fbIcon' to='https://www.instagram.com/ashleybohnphotography/'></Link>
                         <Link className='mediaIcon igIcon' to='https://www.facebook.com/ashleybohnphotography/'></Link>
                         <Link className='mediaIcon pinIcon' to='https://www.pinterest.com/ashleybohnphotography/'></Link>
                     </div>
-                    <p className='fs-3'>ashleybohnphotography@gmail.com</p>
+                    <p className=''>ashleybohnphotography@gmail.com</p>
                 </div>
             </div>
         </footer>
