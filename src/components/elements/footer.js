@@ -17,7 +17,11 @@ const Footer = () => {
             <div className='d-flex col-10'>
                 <div className='d-flex flex-column col-5 align-items-center justify-content-evenly'>
                     <p className='fs-3 col-8 mt-3'>Ashley Bohn is a lifestyle family photographer based in Mesa, Arizona</p>
-                    <button className="col-6 fs-2 my-3 bookBtn" onClick={scrollToTop}>Book Now</button>
+                    <Link className='col-6 fs-2 my-3' to='/contact'>
+                        <button className='bookBtn col-12' onClick={scrollToTop}>
+                            Book Now
+                        </button>
+                    </Link>
                 </div>
                 <div className='d-flex flex-column align-items-center col-2'>
                     <div className="footerLogo" style={{ backgroundImage: `url(${logo})` }}></div>
