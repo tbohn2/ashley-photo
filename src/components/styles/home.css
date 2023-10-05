@@ -26,6 +26,17 @@
     object-fit: cover;
 }
 
+.mobileHomeImgContainer {
+    max-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.mobileHomeImg {
+    width: 100%;
+}
+
 .welcome1 {
     margin-bottom: -15px;
 }
@@ -99,14 +110,14 @@
 .graphic3-3 {
     height: 300px;
     width: 300px;
-    right: 5%;
+    left: 80%;
     bottom: 50%;
 }
 
 .graphic3-4 {
     height: 200px;
     width: 200px;
-    right: 15%;
+    left: 75%;
     bottom: 30%;
 }
 
@@ -175,4 +186,20 @@
 .bookBtn:hover {
     transition: border 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+    .homepageImgContainer {
+        max-height: 70vh;
+        max-width: 300px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .homepageImgContainer {
+        max-height: 70vh;
+        max-width: 250px;
+        overflow: hidden;
+    }
 }

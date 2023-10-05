@@ -8,7 +8,7 @@ import './components/styles/root.css'
 function App() {
   return (
     <Router>
-      <div className='myBody flex flex-col'>
+      <div className='myBody overflow-hidden flex flex-col'>
         <Header />
 
         <div className=''>
