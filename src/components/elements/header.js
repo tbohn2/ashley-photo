@@ -8,7 +8,7 @@ const Header = () => {
 
     useEffect(() => {
         function handleResize() {
-            setIsMobile(window.innerWidth <= 769);
+            setIsMobile(window.innerWidth <= 768);
         }
 
         window.addEventListener('resize', handleResize);
@@ -27,11 +27,11 @@ const Header = () => {
                             <h1 className='gloock myLgText m-0'>ASHLEY BOHN</h1>
                             <h1 className='allura myPhotographyPos'>p h o t o g r a p h y</h1>
                         </div>
-                        <div class="btn-group position-absolute top-0 end-0">
-                            <button type="button" class="mobileNavBtn fs-2 m-3" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div className="btn-group position-absolute top-0 end-0">
+                            <button type="button" className="mobileNavBtn fs-2 m-3" data-bs-toggle="dropdown" aria-expanded="false">
                                 ☰
                             </button>
-                            <ul class="dropdown-menu bgWhite col-12">
+                            <ul className="dropdown-menu bgWhite col-12">
                                 <li><Link className='noTextDec fs-3 dropdown-item border-top border-dark' to='/'>Home</Link></li>
                                 <li><Link className='noTextDec fs-3 dropdown-item border-top border-dark' to='/aboutMe'>About</Link></li>
                                 <li><Link className='noTextDec fs-3 dropdown-item border-top border-dark' to='/contact'>Contact</Link></li>
