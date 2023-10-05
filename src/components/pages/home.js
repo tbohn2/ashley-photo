@@ -76,7 +76,7 @@ const Home = () => {
                                                     <h1 className="meetHeader col-12 text-center">Hi, I'm Ashley!</h1>
                                                     I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
                                                     I am excited to get to know you!
-                                                    <Link className='col-6 my-2 align-self-center' to='/aboutMe'>
+                                                    <Link className='col-6 my-5 align-self-center' to='/aboutMe'>
                                                         <button className='fs-4 col-12 moreAbout' onClick={scrollToTop}>
                                                             More about me!
                                                         </button>
@@ -99,13 +99,13 @@ const Home = () => {
                                     <img className="graphic3" src={graphic3} alt='graphic3'></img>
                                 </div>
                             </div>
-                            <div className="bgLightTeal d-flex justify-content-evenly align-items-center mt-5 py-5 col-12">
-                                <div className="d-flex justify-content-evenly align-items-center col-10">
+                            <div className="bgLightTeal d-flex justify-content-evenly align-items-center mt-5 py-3 col-12">
+                                <div className="d-flex flex-column justify-content-evenly align-items-center col-10">
                                     <div className="d-flex align-items-center bModa">
-                                        <h1 className="fs-3 fw-bold d-flex align-items-center">Professional Photo for your</h1>
-                                        <h1 className="fs-3 fw-bold fst-italic">&nbsp;lifestyle</h1>
+                                        <h1 className="fs-1 fw-bold d-flex align-items-center">Professional Photo for your</h1>
+                                        <h1 className="fs-1 fw-bold fst-italic">&nbsp;lifestyle</h1>
                                     </div>
-                                    <Link className='col-' to='/contact'>
+                                    <Link className='col-3 my-2' to='/contact'>
                                         <button className='bookBtn fs-3 col-12' onClick={scrollToTop}>
                                             Book Now
                                         </button>
@@ -144,18 +144,18 @@ const Home = () => {
                                     <img src={graphic5}></img>
                                 </div>
                                 <div className="meetSection col-12 py-5 d-flex justify-content-center">
-                                    <div className="d-flex flex-column col-8">
+                                    <div className="d-flex flex-column col-10">
                                         <div className="d-flex justify-content-evenly align-items-end">
-                                            <div className="myPortrait z-1 col-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}></div>
-                                            <div className="d-flex flex-column align-self-center z-1 align-items-center col-6">
+                                            <div className="myPortrait z-1 col-4 col-xl-3 d-flex" style={{ backgroundImage: `url(${ashleyPic})` }}></div>
+                                            <div className="d-flex flex-column align-self-center z-1 align-items-center col-7 col-xl-6">
                                                 <h1 className="meetHeader col-10 text-center">Hi, I'm Ashley!</h1>
                                                 <div className="border border-dark myTextBorder1">
                                                     <div className="border border-dark myTextBorder2 d-flex justify-content-center align-items-center">
-                                                        <p className="bgWhite myInfoText p-5 col-11 d-flex flex-column">
+                                                        <p className="bgWhite myInfoText p-3 col-11 d-flex flex-column justify-content-center align-items-center">
                                                             I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
                                                             I am excited to get to know you!
                                                             <br></br>
-                                                            <Link className='col-6 my-5 align-self-center' to='/aboutMe'>
+                                                            <Link className='col-6 col-sm-8 my-5 align-self-center' to='/aboutMe'>
                                                                 <button className='fs-4 col-12 moreAbout' onClick={scrollToTop}>
                                                                     More about me!
                                                                 </button>

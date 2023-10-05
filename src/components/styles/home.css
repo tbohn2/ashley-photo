@@ -202,4 +202,13 @@
         max-width: 250px;
         overflow: hidden;
     }
+
+    .myInfoText {
+        border: 1px solid var(--blue);
+        border-radius: 20px;
+        height: 400px;
+        font-size: 1.25rem;
+        font-weight: 600;
+        transform: rotate(-5deg);
+    }
 }
