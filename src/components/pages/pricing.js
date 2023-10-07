@@ -4,7 +4,7 @@ import '../styles/pricing.css'
 import pricingBG from '../images/pricingBG.jpg'
 
 const PriceCard = ({ title, listItems, investment }) => (
-    <div className="priceCard d-flex flex-column align-items-center bgTeal justify-content-between col-3 py-3 my-5 mx-3">
+    <div className="priceCard d-flex flex-column align-items-center bgTeal justify-content-between py-3 my-5 mx-3">
         <h2 className="col-9 fw-bolder text-center border-dark border-bottom">{title}</h2>
         <ul className="d-flex flex-column justify-content-start listIncluded list-unstyled fs-4 col-9">
             {listItems.map((item, index) => (
@@ -50,13 +50,10 @@ const Pricing = () => {
         },
     ];
 
-    // <div>
-    //   {isMobile ? <MobileComponent /> : <DesktopComponent />}
-    // </div>
 
     return (
         <div className="fade-in d-flex flex-column mt-5 pb-3 align-items-center pricingBG" style={{ backgroundImage: `url(${pricingBG})` }}>
-            <div className="d-flex align-items-center gloock bgGray packageHeader align-self-start myLgText col-6 pe-5 text-end">
+            <div className="d-flex align-items-center gloock bgGray packageHeader align-self-start myLgText col-8 col-sm-6 pe-5 text-end">
                 <h1 className="col-10 my-1">P a c k a g e s</h1>
             </div>
             <div className="d-flex flex-wrap justify-content-evenly mt-5 col-12">

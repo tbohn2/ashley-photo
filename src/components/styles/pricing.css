@@ -14,8 +14,9 @@
 
 .priceCard {
     border-radius: 40px;
+    width: 400px;
 }
 
 .priceCard h2 {
-    font-size: 2.5vw;
+    font-size: 40px;
 }
