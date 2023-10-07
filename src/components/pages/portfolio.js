@@ -15,21 +15,17 @@ import portfolio12 from '../images/portfolio12.jpg'
 
 const Portfolio = () => {
 
+    const portraitImages = [portfolio2, portfolio5, portfolio6, portfolio7, portfolio8, portfolio9, portfolio10]
+
     return (
         <div className="fade-in d-flex mt-5 justify-content-center">
-            <div className="col-10 d-flex flex-wrap justify-content-center">
-                <div className="portPortrait d-flex flex-column justify-content-between col-3 mx-5 my-3">
+            <div className="col-12 d-flex flex-wrap justify-content-center">
+                <div className="portPortrait d-flex flex-column justify-content-between mx-5 my-3">
                     <img className="portLandscape" src={portfolio1} alt="portfolio1"></img>
                     <img className="portLandscape" src={portfolio4} alt="portfolio4"></img>
                 </div>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio2} alt="portfolio2"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio5} alt="portfolio5"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio6} alt="portfolio6"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio7} alt="portfolio7"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio8} alt="portfolio8"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio9} alt="portfolio9"></img>
-                <img className="portPortrait col-3 mx-5 my-3" src={portfolio10} alt="portfolio10"></img>
-                <div className="portPortrait d-flex flex-column justify-content-between col-3 mx-5 my-3">
+                {portraitImages.map((src, index) => <img key={index} className="portPortrait mx-5 my-3" src={src} alt={src}></img>)}
+                <div className="portPortrait d-flex flex-column justify-content-between mx-5 my-3">
                     <img className="portLandscape" src={portfolio11} alt="portfolio11"></img>
                     <img className="portLandscape" src={portfolio12} alt="portfolio12"></img>
                 </div>
