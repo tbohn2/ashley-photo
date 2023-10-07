@@ -15,7 +15,7 @@ import portfolio12 from '../images/portfolio12.jpg'
 
 const Portfolio = () => {
 
-    const portraitImages = [portfolio2, portfolio5, portfolio6, portfolio7, portfolio8, portfolio9, portfolio10]
+    const portraitImages = [portfolio2, portfolio5, portfolio3, portfolio6, portfolio7, portfolio8, portfolio9, portfolio10]
 
     return (
         <div className="fade-in d-flex mt-5 justify-content-center">
