@@ -30,6 +30,7 @@ const Contact = () => {
         }
         if (nameInput, phoneInput, emailInput, instagramInput, inquiryTypeInput, messageInput) {
             console.log("Form submitted");
+            alert("Form submitted successfully! I will be in touch with you soon!");
             emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, '9boZX1F3ht1F4VDmO')
                 .then((result) => {
                     console.log(result.text);
