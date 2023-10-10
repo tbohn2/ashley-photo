@@ -5,6 +5,12 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+    const [selectedOption, setSelectedOption] = useState("What type of photo session would you like to book with me?");
+
+    const updateSelectedOption = (optionText) => {
+        setSelectedOption(optionText);
+    }
+
     const form = useRef();
 
     const sendForm = (e) => {
@@ -14,30 +20,25 @@ const Contact = () => {
         const phoneInput = form.current.querySelector('input[name="phone"]').value;
         const emailInput = form.current.querySelector('input[name="email"]').value;
         const instagramInput = form.current.querySelector('input[name="instagram"]').value;
-        const inquiryTypeInput = form.current.querySelector('button[name="inquiryType"]').value;
+        const inquiryTypeInput = selectedOption;
         const messageInput = form.current.querySelector('textarea[name="message"]').value;
 
-        console.log(nameInput, phoneInput, emailInput, instagramInput, inquiryTypeInput, messageInput);
-
-        if (!/^\d{3}-\d{3}-\d{4}$/.test(phoneInput)) {
-            alert("Please enter a valid phone number in the format '555-555-5555'.");
+        if (!/^\d{3}-\d{3}-\d{4}$/.test(phoneInput) && !/^\d{10}$/.test(phoneInput)) {
+            alert("Please enter a valid phone number in the format '555-555-5555' or '5555555555'.");
             e.preventDefault();
             return;
         }
-
-        // emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, 'YOUR_PUBLIC_KEY')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        if (nameInput, phoneInput, emailInput, instagramInput, inquiryTypeInput, messageInput) {
+            console.log("Form submitted");
+            emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, '9boZX1F3ht1F4VDmO')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+        }
     };
 
-    const [selectedOption, setSelectedOption] = useState("What type of photo session would you like to book with me?");
-
-    const updateSelectedOption = (optionText) => {
-        setSelectedOption(optionText);
-    }
 
     return (
         <div className="fade-in d-flex my-5 flex-column align-items-center">
