@@ -2,10 +2,33 @@ import React, { useState, useRef } from "react";
 import "../styles/contact.css"
 import emailjs from '@emailjs/browser';
 
+function SuccessModal({ show, onClose }) {
+    return (
+        <div className={`modal fade-in ${show ? 'show' : ''}`} tabIndex="-1" role="dialog" style={{ display: show ? 'block' : 'none' }}>
+            <div className="modal-dialog" role="document">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title">Form Submitted Successfully!</h5>
+                        <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={onClose}>
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div className="modal-body">
+                        We'll be in touch soon!
+                    </div>
+                    <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" data-dismiss="modal" onClick={onClose}>Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
 
 const Contact = () => {
 
     const [selectedOption, setSelectedOption] = useState("What type of photo session would you like to book with me?");
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const updateSelectedOption = (optionText) => {
         setSelectedOption(optionText);
@@ -19,7 +42,6 @@ const Contact = () => {
         const nameInput = form.current.querySelector('input[name="name"]').value;
         const phoneInput = form.current.querySelector('input[name="phone"]').value;
         const emailInput = form.current.querySelector('input[name="email"]').value;
-        const instagramInput = form.current.querySelector('input[name="instagram"]').value;
         const inquiryTypeInput = selectedOption;
         const messageInput = form.current.querySelector('textarea[name="message"]').value;
 
@@ -28,18 +50,27 @@ const Contact = () => {
             e.preventDefault();
             return;
         }
-        if (nameInput, phoneInput, emailInput, instagramInput, inquiryTypeInput, messageInput) {
+        if (
+            nameInput !== "" &&
+            phoneInput !== "" &&
+            emailInput !== "" &&
+            inquiryTypeInput !== "What type of photo session would you like to book with me?" &&
+            messageInput !== ""
+        ) {
             console.log("Form submitted");
-            alert("Form submitted successfully! I will be in touch with you soon!");
-            emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, '9boZX1F3ht1F4VDmO')
-                .then((result) => {
-                    console.log(result.text);
-                }, (error) => {
-                    console.log(error.text);
-                });
+            setIsModalOpen(true);
+            // emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, '9boZX1F3ht1F4VDmO')
+            //     .then((result) => {
+            //         console.log(result.text);
+            //     }, (error) => {
+            //         console.log(error.text);
+            //     });
         }
     };
 
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
 
     return (
         <div className="fade-in d-flex my-5 flex-column align-items-center">
@@ -51,15 +82,15 @@ const Contact = () => {
             <form ref={form} onSubmit={sendForm} className="fs-5 d-flex flex-column col-xxl-6 col-8 border border-light p-2 row g-1">
                 <div className="mb-3">
                     <label className="form-label">NAME</label>
-                    <input name="name" className="form-control" placeholder="Jane Doe" />
+                    <input name="name" className="form-control" placeholder="Jane Doe" required />
                 </div>
                 <div className="mb-3">
                     <label className="form-label">PHONE NUMBER</label>
-                    <input name="phone" className="form-control" placeholder="555-555-5555" />
+                    <input name="phone" className="form-control" placeholder="555-555-5555" required />
                 </div>
                 <div className="mb-3">
                     <label className="form-label">EMAIL ADDRESS</label>
-                    <input name="email" type="email" id="email" className="form-control" placeholder="name@example.com" />
+                    <input name="email" type="email" id="email" className="form-control" placeholder="name@example.com" required />
                 </div>
                 <div className="mb-3">
                     <label className="form-label">INSTAGRAM HANDLE</label>
@@ -67,7 +98,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12 mb-3">
                     <label className="form-label">TYPE OF INQUIRY</label>
-                    <button name="inquiryType" type="button" id="selectedOption" className="col-12 btn btn-light text-start dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button name="inquiryType" type="button" id="selectedOption" className="col-12 btn btn-light text-start dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" required>
                         {selectedOption}
                     </button>
                     <ul className="dropdown-menu dropdown-menu-start">
@@ -80,10 +111,11 @@ const Contact = () => {
                 </div>
                 <div className="mb-3 col-12">
                     <label className="form-label">YOUR INSPIRATION</label>
-                    <textarea name="message" className="form-control" placeholder="Tell me all the fun details! Your inspiration for the shoot, date, desired location, ideas, etc." rows="3"></textarea>
+                    <textarea name="message" className="form-control" placeholder="Tell me all the fun details! Your inspiration for the shoot, date, desired location, ideas, etc." rows="3" required></textarea>
                 </div>
                 <button className="submitBtn col-4 col-sm-3 align-self-start">Submit</button>
             </form>
+            <SuccessModal show={isModalOpen} onClose={closeModal} />
         </div>
     )
 }
