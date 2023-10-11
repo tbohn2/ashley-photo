@@ -43,34 +43,34 @@ const Header = () => {
                 )
                 :
                 (
-                    <header className='d-flex flex-column align-items-center pb-2 justify-content-center'>
-                        <div className='my-3 py-2 col-9 border-bottom border-dark d-flex flex-column align-items-center justify-content-center'>
+                    <header className='d-flex flex-column align-items-center justify-content-center'>
+                        <div className='my-2 col-9 border-bottom border-dark d-flex flex-column align-items-center justify-content-center'>
                             <h1 className='gloock myLgText m-0'>ASHLEY BOHN</h1>
                             <h1 className='allura myPhotographyPos'>p h o t o g r a p h y</h1>
                         </div>
                         <nav className='d-flex justify-content-evenly align-items-end col-10 mt-1'>
                             <Link className='noTextDec fs-3' to='/'>
-                                <button className='myBtn fs-3'>
+                                <button className='myBtn'>
                                     Home
                                 </button>
                             </Link>
-                            <Link className='myLink fs-3 text-dark' to='/aboutMe'>
-                                <button className='myBtn fs-3'>
+                            <Link className='noTextDec fs-3' to='/aboutMe'>
+                                <button className='myBtn'>
                                     About
                                 </button>
                             </Link>
-                            <Link className='myLink fs-3 text-dark' to='/contact'>
-                                <button className='myBtn fs-3'>
+                            <Link className='noTextDec fs-3' to='/contact'>
+                                <button className='myBtn'>
                                     Contact
                                 </button>
                             </Link>
-                            <Link className='myLink fs-3 text-dark' to='/pricing'>
-                                <button className='myBtn fs-3'>
+                            <Link className='noTextDec fs-3' to='/pricing'>
+                                <button className='myBtn'>
                                     Pricing
                                 </button>
                             </Link>
-                            <Link className='myLink fs-3 text-dark' to='/portfolio'>
-                                <button className='myBtn fs-3'>
+                            <Link className='noTextDec fs-3' to='/portfolio'>
+                                <button className='myBtn'>
                                     Porfolio
                                 </button>
                             </Link>
