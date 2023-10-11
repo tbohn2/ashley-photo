@@ -8,7 +8,7 @@ function SuccessModal({ show, onClose }) {
             <div className="modal-dialog" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-title">Form Submitted Successfully!</h5>
+                        <h5 className="modal-title">Form Submitted!</h5>
                         <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={onClose}>
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -59,12 +59,12 @@ const Contact = () => {
         ) {
             console.log("Form submitted");
             setIsModalOpen(true);
-            // emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, '9boZX1F3ht1F4VDmO')
-            //     .then((result) => {
-            //         console.log(result.text);
-            //     }, (error) => {
-            //         console.log(error.text);
-            //     });
+            emailjs.sendForm('service_dzeb4os', 'template_nnq7g1f', form.current, '9boZX1F3ht1F4VDmO')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
         }
     };
 
