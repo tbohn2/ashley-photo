@@ -126,14 +126,14 @@ const Home = () => {
                     <div className="d-flex justify-content-center col-12" >
                         {imagesLoaded ? (
                             <div className="d-flex flex-column mb-5 align-items-center col-12">
-                                <div className="homeGallery d-flex align-items-center">
-                                    <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
+                                <div className="homeGallery col-8 d-flex justify-content-evenly align-items-center">
+                                    <div className="d-flex justify-content-center align-items-center homepageImgContainer">
                                         <img className="homepageImg" src={pic1}></img>
                                     </div>
-                                    <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
+                                    <div className="d-flex justify-content-center align-items-center homepageImgContainer">
                                         <img className="homepageImg2 mb-5 pb-5" src={pic2}></img>
                                     </div>
-                                    <div className="mx-1 d-flex justify-content-center align-items-center homepageImgContainer">
+                                    <div className="d-flex justify-content-center align-items-center homepageImgContainer">
                                         <img className="homepageImg" src={pic3}></img>
                                     </div>
                                 </div>
