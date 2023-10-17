@@ -182,11 +182,11 @@ const Home = () => {
                                 <div className="bgLightTeal d-flex justify-content-evenly align-items-center mt-5 py-5 col-12">
                                     <div className="d-flex justify-content-evenly align-items-center col-12">
                                         <div className="d-flex align-items-center bModa">
-                                            <h1 className="myLgText fw-bold d-flex align-items-center">Professional Photo for your</h1>
-                                            <h1 className="myLgText fw-bold fst-italic">&nbsp;lifestyle</h1>
+                                            <h1 className="fs-1 fw-bold d-flex align-items-center">Professional Photo for your</h1>
+                                            <h1 className="fs-1 fw-bold fst-italic">&nbsp;lifestyle</h1>
                                         </div>
                                         <Link className='col-3' to='/contact'>
-                                            <button className='myLgText bookBtn col-12' onClick={scrollToTop}>
+                                            <button className='fs-1 bookBtn col-12' onClick={scrollToTop}>
                                                 Book Now
                                             </button>
                                         </Link>
