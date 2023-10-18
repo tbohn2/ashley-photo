@@ -2,7 +2,7 @@
   "name": "ashley-photo",
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://tbohn2.github.io/ashley-photo",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
