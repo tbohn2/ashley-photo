@@ -1,3 +1,3 @@
 # Ashley Photography
 
-https://tbohn2.github.io/portfolio
+https://tbohn2.github.io/ashley-photo
