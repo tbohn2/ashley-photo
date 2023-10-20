@@ -72,16 +72,18 @@ const Home = () => {
                                     <div className="d-flex flex-column align-self-center my-5 z-1 align-items-center col-10">
                                         <div className="border border-dark myTextBorder1">
                                             <div className="border border-dark myTextBorder2 d-flex justify-content-center align-items-center">
-                                                <p className="bgWhite myInfoText p-4 col-11 d-flex flex-column">
+                                                <div className="bgWhite myInfoText p-4 col-11 d-flex flex-column">
                                                     <h1 className="meetHeader col-12 text-center">Hi, I'm Ashley!</h1>
-                                                    I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
-                                                    I am excited to get to know you!
+                                                    <p>
+                                                        I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
+                                                        I am excited to get to know you!
+                                                    </p>
                                                     <Link className='col-6 my-5 align-self-center' to='/aboutMe'>
                                                         <button className='fs-4 col-12 moreAbout' onClick={scrollToTop}>
                                                             More about me!
                                                         </button>
                                                     </Link>
-                                                </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
