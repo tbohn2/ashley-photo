@@ -80,7 +80,7 @@
 }
 
 .meetHeader {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 600;
 }
 
@@ -148,7 +148,7 @@
     border: 1px solid var(--blue);
     border-radius: 20px;
     height: 400px;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
     transform: rotate(-5deg);
 }
@@ -211,4 +211,56 @@
         transform: rotate(-5deg);
     }
 
+}
+
+@media screen and (max-width: 768px) {
+    .welcome1 {
+        margin-bottom: -15px;
+        font-size: 5vw;
+    }
+
+    .welcome2 {
+        font-size: 6vw;
+    }
+
+    .welcome3 {
+        margin-top: -20px;
+        font-size: 3vw;
+    }
+
+
+    .myInfoText {
+        border: 1px solid var(--blue);
+        border-radius: 20px;
+        height: 90vh;
+        width: 80vw;
+        font-size: 3vw;
+        font-weight: 600;
+        transform: rotate(-5deg);
+    }
+
+    .myInfoText p {
+        font-size: 4vw;
+    }
+
+    .meetHeader {
+        font-size: 6vw;
+        font-weight: 600;
+    }
+
+    .myTextBorder1 {
+        transform: rotate(-5deg);
+        position: relative;
+        z-index: 1;
+    }
+
+    .myTextBorder2 {
+        transform: rotate(10deg);
+        position: relative;
+        z-index: 2;
+    }
+
+    .professionalPhoto h2 {
+        font-size: 4.5vw;
+    }
 }
