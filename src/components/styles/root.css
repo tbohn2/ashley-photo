@@ -31,12 +31,18 @@
 }
 
 .myLgText {
-    font-size: 3rem;
+    font-size: 48px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 720px) {
     .myLgText {
-        font-size: 2.25rem;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .myLgText {
+        font-size: 32px;
     }
 }
 

@@ -23,12 +23,12 @@ const Header = () => {
             {isMobile ?
                 (
                     <header className='d-flex flex-column align-items-center pb-2 justify-content-center'>
-                        <div className='my-3 py-2 col-10 border-bottom border-dark d-flex flex-column align-items-center justify-content-center'>
+                        <div className='my-3 py-2 z-1 col-10 border-bottom border-dark d-flex flex-column align-items-center justify-content-center'>
                             <h1 className='gloock myLgText m-0'>ASHLEY BOHN</h1>
                             <h1 className='allura myPhotographyPos'>p h o t o g r a p h y</h1>
                         </div>
                         <div className="btn-group position-absolute top-0 end-0">
-                            <button type="button" className="mobileNavBtn fs-2 m-3" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" className="mobileNavBtn m-2 z-0" data-bs-toggle="dropdown" aria-expanded="false">
                                 ☰
                             </button>
                             <ul className="dropdown-menu bgWhite col-12">

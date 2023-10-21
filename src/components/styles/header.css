@@ -28,8 +28,15 @@ header {
 
 .mobileNavBtn {
     background-color: var(--white);
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 0px;
+}
+
+@media screen and (max-width: 460px) {
+    .myPhotographyPos {
+        margin-top: -10px;
+        position: relative;
+        z-index: 1;
+    }
 }
 
 @media screen and (max-width: 460px) {
