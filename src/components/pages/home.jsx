@@ -66,7 +66,7 @@ const Home = () => {
                                     <img className="mobileHomeImg2 align-self-end" src={portfolio8}></img>
                                 </div>
                             </div>
-                            <div className="bgTeal col-12 d-flex flex-column justify-content-center align-items-center">
+                            <div className="bgTeal pt-3 col-12 d-flex flex-column justify-content-center align-items-center">
                                 <p className="allura welcome1">Welcome to Ashley Bohn Photography!</p>
                                 <p className="gloock welcome2">I'D LOVE TO HEAR FROM YOU</p>
                                 <p className="welcome3 mb-2">For session availability please fill out this <Link className="formLink" to={'/contact'}>form</Link> and I will get back to you.</p>
