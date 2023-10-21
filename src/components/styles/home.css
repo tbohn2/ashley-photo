@@ -232,7 +232,7 @@
     .myInfoText {
         border: 1px solid var(--blue);
         border-radius: 20px;
-        height: 90vh;
+        height: 80vw;
         width: 80vw;
         font-size: 3vw;
         font-weight: 600;

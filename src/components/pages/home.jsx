@@ -84,7 +84,7 @@ const Home = () => {
                                                         I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
                                                         I am excited to get to know you!
                                                     </p>
-                                                    <Link className='col-9 col-sm-6 my-5 align-self-center' to='/aboutMe'>
+                                                    <Link className='col-9 col-sm-6 align-self-center' to='/aboutMe'>
                                                         <button className='fs-4 col-12 moreAbout' onClick={scrollToTop}>
                                                             More about me!
                                                         </button>
