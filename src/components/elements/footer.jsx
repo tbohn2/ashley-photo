@@ -43,8 +43,8 @@ const Footer = () => {
                     </div>
                 </div>
             ) : (
-                <div className='d-flex col-xl-12'>
-                    <div className='d-flex flex-column col-5 align-items-center justify-content-evenly'>
+                <div className='d-flex col-12 justify-content-evenly'>
+                    <div className='col-4 d-flex flex-column align-items-center justify-content-evenly'>
                         <p className='col-8 mt-3'>Ashley Bohn is a lifestyle family photographer based in Mesa, Arizona</p>
                         <Link className='col-6 my-3' to='/contact'>
                             <button className='bookBtn col-12' onClick={scrollToTop}>
@@ -52,10 +52,10 @@ const Footer = () => {
                             </button>
                         </Link>
                     </div>
-                    <div className='d-flex flex-column align-items-center col-2'>
-                        <div className="footerLogo" style={{ backgroundImage: `url(${logo})` }}></div>
+                    <div className='d-flex justify-content-center align-items-center footerLogoContainer'>
+                        <img src={logo} alt="logo" className="footerLogo" />
                     </div>
-                    <div className='d-flex flex-column col-5 justify-content-evenly align-items-center'>
+                    <div className='col-4 d-flex flex-column justify-content-evenly align-items-center'>
                         <div className='d-flex justify-content-evenly col-8'>
                             <Link className='mediaIcon fbIcon' to='https://www.instagram.com/ashleybohnphotography/'></Link>
                             <Link className='mediaIcon igIcon' to='https://www.facebook.com/ashleybohnphotography/'></Link>
