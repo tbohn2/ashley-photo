@@ -4,6 +4,8 @@ import '../styles/home.css'
 import pic1 from '../images/homepage1.jpg'
 import pic2 from '../images/homepage2.jpg'
 import pic3 from '../images/homepage3.jpg'
+import portfolio3 from '../images/portfolio3.jpg'
+import portfolio8 from '../images/portfolio8.jpg'
 import ashleyPic from '../images/AshleyP2.jpeg'
 import graphic4 from '../graphics/4.png'
 import graphic5 from '../graphics/5.png'
@@ -29,7 +31,7 @@ const Home = () => {
     const [imagesLoaded, setImagesLoaded] = useState(false);
 
     useEffect(() => {
-        const imageElements = [pic1, pic2, pic3, ashleyPic, graphic4, graphic5, flower1];
+        const imageElements = [pic1, pic2, pic3, portfolio3, portfolio8, ashleyPic, graphic4, graphic5, flower1];
 
         const imagePromises = imageElements.map((src) => {
             const image = new Image();
@@ -55,9 +57,13 @@ const Home = () => {
                 <div className="d-flex justify-content-center col-12" >
                     {imagesLoaded ? (
                         <div className="d-flex flex-column mb-5 align-items-center col-12">
-                            <div className="homeGallery d-flex">
-                                <div className="mx-1 d-flex justify-content-center align-items-center mobileHomeImgContainer">
+                            <div className="homeGallery d-flex flex-column align-items-center mb-3">
+                                <div className="mb-3 mx-3 d-flex justify-content-center align-items-center mobileHomeImgContainer">
                                     <img className="mobileHomeImg" src={pic3}></img>
+                                </div>
+                                <div className="d-flex justify-content-evenly mobileHomeImgContainer2">
+                                    <img className="mobileHomeImg2" src={portfolio3}></img>
+                                    <img className="mobileHomeImg2 align-self-end" src={portfolio8}></img>
                                 </div>
                             </div>
                             <div className="bgTeal col-12 d-flex flex-column justify-content-center align-items-center">
@@ -128,14 +134,14 @@ const Home = () => {
                     <div className="d-flex justify-content-center col-12" >
                         {imagesLoaded ? (
                             <div className="d-flex flex-column mb-5 align-items-center col-12">
-                                <div className="homeGallery col-8 d-flex justify-content-evenly align-items-center">
-                                    <div className="d-flex justify-content-center align-items-center homepageImgContainer">
+                                <div className="homeGallery col-10 d-flex justify-content-evenly align-items-center">
+                                    <div className="d-flex justify-content-center align-items-center mx-3 homepageImgContainer">
                                         <img className="homepageImg" src={pic1}></img>
                                     </div>
-                                    <div className="d-flex justify-content-center align-items-center homepageImgContainer">
+                                    <div className="d-flex justify-content-center align-items-center mx-3 homepageImgContainer">
                                         <img className="homepageImg2 mb-5 pb-5" src={pic2}></img>
                                     </div>
-                                    <div className="d-flex justify-content-center align-items-center homepageImgContainer">
+                                    <div className="d-flex justify-content-center align-items-center mx-3 homepageImgContainer">
                                         <img className="homepageImg" src={pic3}></img>
                                     </div>
                                 </div>
