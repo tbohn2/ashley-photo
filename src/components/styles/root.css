@@ -34,20 +34,8 @@
     font-size: 48px;
 }
 
-@media screen and (max-width: 720px) {
-    .myLgText {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .myLgText {
-        font-size: 32px;
-    }
-}
-
 .myXLText {
-    font-size: 5rem;
+    font-size: 80px;
 }
 
 .noTextDec {
@@ -89,7 +77,23 @@
     }
 }
 
-/* Apply the animation to the page content */
 .fade-in {
     animation: fade-in 1s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .myLgText {
+        font-size: 40px;
+    }
+
+    .myXLText {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .myLgText {
+        font-size: 32px;
+    }
+
 }

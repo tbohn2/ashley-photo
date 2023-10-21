@@ -27,11 +27,11 @@ const AboutMe = () => {
                 <div className="fade-in d-flex pt-3 bgTeal flex-column align-items-center">
                     <div className="d-flex align-items-center">
                         <h1 className="gloock d-flex align-items-center">MEET YOUR</h1>
-                        <h1 className="myXLText allura">&nbsp;Photographer</h1>
+                        <h1 className="myXLText allura m-0">&nbsp;Photographer</h1>
                     </div>
                     <div className="col-10 d-flex flex-column align-items-center">
                         <div className="float-end my-3 border aboutMePortrait" style={{ backgroundImage: `url(${pic})` }}></div>
-                        <p className="fs-1">
+                        <p className="fs-2">
                             Hey there! I'm Ashley, your go-to photographer from the sunny deserts of Arizona. When I'm not behind the lens, you'll find me frolicking in the great outdoors, soaking up
                             that glorious Arizona sunshine, and getting my adrenaline fix hiking.
                             I am passionate about many things, but my true artistic expression comes to life through photography. It's my creative escape!
@@ -50,13 +50,13 @@ const AboutMe = () => {
 
             ) : (
                 <div className="fade-in d-flex mt-3 pt-5 bgTeal flex-column align-items-center">
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex justify-content-center align-items-center">
                         <h1 className="gloock d-flex align-items-center">MEET YOUR</h1>
-                        <h1 className="myXLText allura">&nbsp;Photographer</h1>
+                        <h1 className="myXLText allura m-0">&nbsp;Photographer</h1>
                     </div>
                     <div className="col-10 my-5">
                         <div className="float-end  border aboutMePortrait" style={{ backgroundImage: `url(${pic})` }}></div>
-                        <p className="fs-1">
+                        <p className="fs-2">
                             Hey there! I'm Ashley, your go-to photographer from the sunny deserts of Arizona. When I'm not behind the lens, you'll find me frolicking in the great outdoors, soaking up
                             that glorious Arizona sunshine, and getting my adrenaline fix hiking.
                             I am passionate about many things, but my true artistic expression comes to life through photography. It's my creative escape!
