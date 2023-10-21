@@ -56,7 +56,7 @@ const Home = () => {
             {isMobile ? (
                 <div className="d-flex justify-content-center col-12" >
                     {imagesLoaded ? (
-                        <div className="d-flex flex-column mb-5 align-items-center col-12">
+                        <div className="d-flex flex-column align-items-center col-12">
                             <div className="homeGallery d-flex flex-column align-items-center mb-3">
                                 <div className="mb-3 mx-3 d-flex justify-content-center align-items-center mobileHomeImgContainer">
                                     <img className="mobileHomeImg" src={pic3}></img>
@@ -133,7 +133,7 @@ const Home = () => {
                 (
                     <div className="d-flex justify-content-center col-12" >
                         {imagesLoaded ? (
-                            <div className="d-flex flex-column mb-5 align-items-center col-12">
+                            <div className="d-flex flex-column align-items-center col-12">
                                 <div className="homeGallery col-10 d-flex justify-content-evenly align-items-center">
                                     <div className="d-flex justify-content-center align-items-center mx-3 homepageImgContainer">
                                         <img className="homepageImg" src={pic1}></img>

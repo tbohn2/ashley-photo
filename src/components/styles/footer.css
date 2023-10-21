@@ -2,12 +2,15 @@ footer {
     font-size: 1.5rem;
 }
 
+.footerLogoContainer {
+    overflow: hidden;
+}
+
 .footerLogo {
-    height: 250px;
-    width: 250px;
-    background-size: 175%;
-    background-position: center;
-    z-index: 0;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .mediaIcon {
@@ -54,5 +57,23 @@ footer {
         background-size: 175%;
         background-position: center;
         z-index: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 3vw;
+    }
+
+    .footerLogoContainer {
+        overflow: hidden;
+        height: 200px;
+        width: 200px;
+    }
+
+    .footerLogo {
+        transform: scale(2);
+        object-fit: cover;
+        object-position: center;
     }
 }
