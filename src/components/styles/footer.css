@@ -22,15 +22,15 @@ footer {
 }
 
 .fbIcon {
-    background-Image: url(../graphics/FBIcon.png)
+    background-image: url(../graphics/FBIcon.png)
 }
 
 .igIcon {
-    background-Image: url(../graphics/IGIcon.png)
+    background-image: url(../graphics/IGIcon.png)
 }
 
 .pinIcon {
-    background-Image: url(../graphics/PinIcon.png)
+    background-image: url(../graphics/PinIcon.png)
 }
 
 @media screen and (max-width: 1140px) {
