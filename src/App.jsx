@@ -7,11 +7,10 @@ import './components/styles/root.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/ashley-photo'>
       <div className='myBody overflow-hidden flex flex-col'>
         <Header />
-
-        <div className=''>
+        <div>
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/pricing' element={<Pricing />} />
