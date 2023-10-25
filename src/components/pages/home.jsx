@@ -109,9 +109,8 @@ const Home = () => {
                             </div>
                             <div className="bgLightTeal professionalPhoto d-flex justify-content-evenly align-items-center mt-5 py-3 col-12">
                                 <div className="d-flex flex-column justify-content-evenly align-items-center col-10">
-                                    <div className="d-flex align-items-center bModa">
-                                        <h2 className="fw-bold d-flex align-items-center">Professional Photo for your</h2>
-                                        <h2 className="fw-bold fst-italic">&nbsp;lifestyle</h2>
+                                    <div className="d-flex justify-content-center align-items-center border border-dark bModa col-12">
+                                        <h2 className="fw-bold d-flex align-items-center">Professional Photo for your <span className="fst-italic">&nbsp;lifestyle</span></h2>
                                     </div>
                                     <Link className='col-6 my-2' to='/contact'>
                                         <button className='bookBtn fs-3 col-12' onClick={scrollToTop}>
