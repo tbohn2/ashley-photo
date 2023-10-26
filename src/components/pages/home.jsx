@@ -84,7 +84,7 @@ const Home = () => {
                                                         I am the girl behind the lens! I love capturing sweet and special moments with my camera. You can find me exploring AZ, planning my next vacay, or getting cozy at home with my hubby or a book in my hand.
                                                         I am excited to get to know you!
                                                     </p>
-                                                    <Link className='col-9 col-sm-6 align-self-center' to='/aboutMe'>
+                                                    <Link className='col-10 col-sm-8 align-self-center' to='/aboutMe'>
                                                         <button className='fs-4 col-12 moreAbout' onClick={scrollToTop}>
                                                             More about me!
                                                         </button>
@@ -108,11 +108,11 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="bgLightTeal professionalPhoto d-flex justify-content-evenly align-items-center mt-5 py-3 col-12">
-                                <div className="d-flex flex-column justify-content-evenly align-items-center col-10">
+                                <div className="d-flex flex-column justify-content-evenly align-items-center col-12">
                                     <div className="d-flex justify-content-center align-items-center bModa col-12">
-                                        <h2 className="fw-bold">Professional Photo for your <span className="fst-italic">lifestyle</span></h2>
+                                        <h2 className="fw-bold text-center">Professional Photo for your <span className="fst-italic">lifestyle</span></h2>
                                     </div>
-                                    <Link className='col-6 my-2' to='/contact'>
+                                    <Link className='col-5 my-2' to='/contact'>
                                         <button className='bookBtn fs-3 col-12' onClick={scrollToTop}>
                                             Book Now
                                         </button>

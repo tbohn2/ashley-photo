@@ -261,6 +261,18 @@
     }
 
     .professionalPhoto h2 {
-        font-size: 4.5vw;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .professionalPhoto h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .professionalPhoto h2 {
+        font-size: 20px;
     }
 }
