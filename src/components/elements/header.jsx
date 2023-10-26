@@ -28,7 +28,7 @@ const Header = () => {
                             <h1 className='allura myPhotographyPos'>p h o t o g r a p h y</h1>
                         </div>
                         <div className="btn-group position-absolute top-0 end-0">
-                            <button type="button" className="mobileNavBtn m-2 z-0 fs-3 noTextDec text-dark text-center" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" className="mobileNavBtn m-2 z-0 noTextDec text-dark d-flex justify-content-center align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
                                 ☰
                             </button>
                             <ul className="dropdown-menu bgWhite col-12">
