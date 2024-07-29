@@ -27,7 +27,7 @@ function SuccessModal({ show, onClose }) {
 
 const Contact = () => {
 
-    const [selectedOption, setSelectedOption] = useState("What type of photo session would you like to book with me?");
+    const [selectedOption, setSelectedOption] = useState("Select photo session");
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const updateSelectedOption = (optionText) => {
