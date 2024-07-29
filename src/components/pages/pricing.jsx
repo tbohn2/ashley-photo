@@ -4,7 +4,7 @@ import '../styles/pricing.css'
 import pricingBG from '../images/pricingBG.jpg'
 
 const PriceCard = ({ title, listItems, investment }) => (
-    <div className="priceCard d-flex flex-column align-items-center bgTeal justify-content-between py-3 my-5 mx-3">
+    <div className="priceCard d-flex flex-column align-items-center bgTeal justify-content-between py-3">
         <h2 className="col-9 fw-bolder text-center border-dark border-bottom">{title}</h2>
         <ul className="d-flex flex-column justify-content-start listIncluded list-unstyled fs-4 col-9">
             {listItems.map((item, index) => (

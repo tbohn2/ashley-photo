@@ -13,10 +13,18 @@
 }
 
 .priceCard {
+    margin: 50px 65px;
     border-radius: 40px;
     width: 350px;
 }
 
 .priceCard h2 {
     font-size: 35px;
+}
+
+@media screen and (max-width: 1400px) {
+    .priceCard {
+        margin: 25px 25px;
+    }
+
 }
