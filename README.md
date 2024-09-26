@@ -1,6 +1,6 @@
 # Ashley Photography
 
-A Web application for Ashley Photography.
+A web application for Ashley Photography.
 Visit [here](https://tbohn2.github.io/ashley-photo/)
 
 ## Description
@@ -13,30 +13,6 @@ This application was designed to show off the work of photographer Ashley Bohn a
 - Browse portfolio
 - Check pricing information
 - Contact form submission via EmailJS
-
-## Installation and Usage
-
-To run this application locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/tbohn2/ashley-photo.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd ashley-photo
-   ```
-
-3. Install dependencies:
-   ```bash
-    npm install
-   ```
-
-4. Run tha application:
-   ```bash 
-   npm run dev
-   ```
 
 ## Technologies Used
 
