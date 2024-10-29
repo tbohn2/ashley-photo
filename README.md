@@ -1,7 +1,7 @@
 # Ashley Photography
 
 A web application for Ashley Photography.
-Visit [here](https://tbohn2.github.io/ashley-photo/)
+Visit [here](https://ashleybohnphoto.com)
 
 ## Description
 
@@ -30,7 +30,7 @@ Designed in coordination with Ashley Bohn
 
 ## Contact
 
-For any questions or support, please contact tanner.bohn@yahoo.com.
+For any questions or support, please contact tannerjbohn@gmail.com.
 
 ## Screenshot
 

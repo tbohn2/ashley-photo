@@ -7,7 +7,7 @@ import './components/styles/root.css'
 
 function App() {
   return (
-    <Router basename='/ashley-photo'>
+    <Router>
       <div className='myBody overflow-hidden flex flex-col'>
         <Header />
         <div>
