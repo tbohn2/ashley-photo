@@ -5,7 +5,27 @@ import collage1 from '../images/collage1.png'
 import collage2 from '../images/collage2.png'
 import collage3 from '../images/collage3.png'
 
-const AboutMe = () => {
+const AboutMe = ({ setCurrent, setLoaded }) => {
+
+    useEffect(() => {
+        setCurrent('aboutMe');
+    }, []);
+
+    useEffect(() => {
+        const imageElements = [pic, collage1, collage2, collage3];
+
+        const imagePromises = imageElements.map((src) => {
+            const image = new Image();
+            image.src = src;
+            return new Promise((resolve) => {
+                image.onload = resolve;
+            });
+        });
+
+        Promise.all(imagePromises).then(() => {
+            setLoaded('aboutMe');
+        });
+    }, []);
 
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
 
@@ -30,8 +50,8 @@ const AboutMe = () => {
                         <h1 className="myXLText allura m-0">&nbsp;Photographer</h1>
                     </div>
                     <div className="col-10 d-flex flex-column align-items-center">
-                        <div className="float-end my-3 border aboutMePortrait" style={{ backgroundImage: `url(${pic})` }}></div>
-                        <p className="fs-2">
+                        <img src={pic} alt="" className="float-end my-3 border aboutMePortrait" />
+                        <p className="fs-3">
                             Hey there! I'm Ashley, your go-to photographer from the sunny deserts of Arizona. When I'm not behind the lens, you'll find me frolicking in the great outdoors, soaking up
                             that glorious Arizona sunshine, and getting my adrenaline fix hiking.
                             I am passionate about many things, but my true artistic expression comes to life through photography. It's my creative escape!

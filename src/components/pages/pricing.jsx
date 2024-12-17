@@ -15,7 +15,7 @@ const PriceCard = ({ title, listItems, investment }) => (
     </div>
 );
 
-const Pricing = () => {
+const Pricing = ({ setCurrent, setLoaded }) => {
 
     const packages = [
         {
@@ -49,6 +49,19 @@ const Pricing = () => {
             investment: "$100",
         },
     ];
+
+    useEffect(() => {
+        setCurrent('pricing');
+    }, []);
+
+    useEffect(() => {
+        const image = new Image();
+        image.src = pricingBG;
+
+        image.onload = () => {
+            setLoaded('pricing');
+        };
+    }, [pricingBG]);
 
 
     return (
