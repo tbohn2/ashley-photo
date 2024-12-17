@@ -1,7 +1,7 @@
 # Ashley Photography
 
 A web application for Ashley Photography.
-Visit [here](https://tbohn2.github.io/ashley-photo/)
+Visit [here](https://www.ashleybohnphoto.com/)
 
 ## Description
 
