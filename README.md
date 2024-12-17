@@ -30,7 +30,7 @@ Designed in coordination with Ashley Bohn
 
 ## Contact
 
-For any questions or support, please contact tanner.bohn@yahoo.com.
+For any questions or support, please contact tannerjbohn@gmail.com.
 
 ## Screenshot
 
