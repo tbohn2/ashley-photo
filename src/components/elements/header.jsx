@@ -27,7 +27,7 @@ const Header = () => {
                             <h1 className='gloock myLgText m-0'>ASHLEY BOHN</h1>
                             <h1 className='allura myPhotographyPos'>p h o t o g r a p h y</h1>
                         </div>
-                        <div className="btn-group position-absolute top-0 end-0">
+                        <div className="btn-group position-absolute top-0 end-0 z-3">
                             <button type="button" className="mobileNavBtn me-3 mt-4 z-0 noTextDec text-dark d-flex justify-content-center align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
                                 ☰
                             </button>
