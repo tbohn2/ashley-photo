@@ -4,8 +4,8 @@
     width: 75vw;
     height: 75vw;
     border-radius: 300px;
-    background-size: cover;
-    background-position: center 25%;
+    object-fit: cover;
+    object-position: 0% 25%;
 }
 
 .collage {

@@ -50,7 +50,7 @@ const AboutMe = ({ setCurrent, setLoaded }) => {
                         <h1 className="myXLText allura m-0">&nbsp;Photographer</h1>
                     </div>
                     <div className="col-10 d-flex flex-column align-items-center">
-                        <img src={pic} alt="" className="float-end my-3 border aboutMePortrait" />
+                        <img src={pic} alt="ashley_portrait" className="float-end my-3 border aboutMePortrait" />
                         <p className="fs-3">
                             Hey there! I'm Ashley, your go-to photographer from the sunny deserts of Arizona. When I'm not behind the lens, you'll find me frolicking in the great outdoors, soaking up
                             that glorious Arizona sunshine, and getting my adrenaline fix hiking.
@@ -75,7 +75,7 @@ const AboutMe = ({ setCurrent, setLoaded }) => {
                         <h1 className="myXLText allura m-0">&nbsp;Photographer</h1>
                     </div>
                     <div className="col-10 my-5">
-                        <div className="float-end  border aboutMePortrait" style={{ backgroundImage: `url(${pic})` }}></div>
+                        <img className="float-end border aboutMePortrait" alt="ashley_portrait" src={pic} />
                         <p className="fs-2">
                             Hey there! I'm Ashley, your go-to photographer from the sunny deserts of Arizona. When I'm not behind the lens, you'll find me frolicking in the great outdoors, soaking up
                             that glorious Arizona sunshine, and getting my adrenaline fix hiking.
