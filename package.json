@@ -2,7 +2,7 @@
   "name": "ashley-photo",
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://www.ashleybohnphoto.com/",
+  "homepage": "https://www.ashleybohnphoto.site/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
